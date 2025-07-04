@@ -48,7 +48,7 @@ export function CodexForm({ onSubmit, isLoading }: CodexFormProps) {
           name="input"
           render={({ field }) => (
             <FormItem>
-              <FormLabel className="text-lg font-semibold">Search for an ICD-10 Code</FormLabel>
+              <FormLabel className="text-lg font-semibold">Search for an ICD10 Code</FormLabel>
               <FormControl>
                 <Textarea
                   placeholder="e.g., E11.9 or Type 2 diabetes mellitus without complications"
@@ -67,7 +67,7 @@ export function CodexForm({ onSubmit, isLoading }: CodexFormProps) {
           {isLoading ? (
             <>
               <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-              Searching...
+              Interpreting...
             </>
           ) : (
             "Search Code"
