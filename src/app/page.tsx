@@ -32,10 +32,10 @@ export default function Home() {
       const output = await interpretMedicalCode({ input });
       setResult(output);
     } catch (error) {
-      console.error("Error interpreting medical code:", error);
+      console.error("Error searching for medical code:", error);
       toast({
         title: "An Error Occurred",
-        description: "We couldn't process your request. Please try again later.",
+        description: "We couldn't complete the search. Please try again later.",
         variant: "destructive",
       });
     } finally {

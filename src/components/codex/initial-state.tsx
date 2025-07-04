@@ -11,11 +11,11 @@ export function InitialState() {
           <div className="mx-auto bg-muted rounded-full p-4 w-fit">
             <FileText className="h-12 w-12 text-muted-foreground" />
           </div>
-          <CardTitle className="mt-4">Ready to Interpret</CardTitle>
+          <CardTitle className="mt-4">Ready to Search</CardTitle>
         </CardHeader>
         <CardContent>
           <p className="text-muted-foreground">
-            Enter an ICD-10 code or a diagnostic phrase above to get started. The AI-powered analysis will appear here.
+            Enter an ICD-10 code or a diagnostic phrase above to search. The analysis will appear here.
           </p>
         </CardContent>
       </Card>
